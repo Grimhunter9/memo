@@ -1,0 +1,90 @@
+body{
+ background-image:url("https://i.pinimg.com/originals/51/84/28/5184284068b648233ad6e9a580f750b6.jpg");
+ background-size: cover;
+ 
+
+}
+
+.ti{
+    padding: 1vw;
+    background: rgba(194, 89, 19, 0.466);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius:0.2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-size: 1.9vw;
+    font-family: 'Lobster', cursive;
+}  
+
+#container{
+    background:rgba(236, 167, 121, 0.26);
+    border-style:dashed;
+    width:30vw;
+    background-size: cover;
+    height:30vw;
+    border-radius:15px;
+    margin-top:-1vw;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    overflow: auto;
+}
+
+#add{
+    padding: 20px;
+    background: rgb(201, 93, 4);
+    display: flexbox;
+    border-radius: 30px;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-top: 35%;
+}
+
+
+
+input[type=checkbox]{
+    transform: scale(2);
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+ 
+
+
+
+.obj{
+    padding: 10px;
+    font-size: 30px;
+    margin: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: block;
+    border-radius:15px;
+  
+}
+
+.obj:hover i{
+visibility: visible;
+}
+
+
+
+i{
+    float: right;
+    font-size:50px;
+    visibility: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pa{
+    color: orangered;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
