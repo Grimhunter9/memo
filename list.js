@@ -13,6 +13,11 @@ var icon=document.createElement("i");
 
 
 
+    if (content.length === 0) {
+        alert("write something");
+        object.parentNode.removeChild(object);
+    }
+
 
 object.className="obj";
 lab.className="pa";
